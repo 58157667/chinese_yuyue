@@ -14,17 +14,17 @@ const confirmArea =
 
 confirmArea.innerHTML = `
 
-<p>名前：${booking.name}</p>
+<p>姓名：${booking.name}</p>
 
-<p>メール：${booking.email}</p>
+<p>电子邮件：${booking.email}</p>
 
-<p>電話番号：${booking.phone}</p>
+<p>电话：${booking.phone}</p>
 
-<p>予約日：${booking.reserveDate}</p>
+<p>预约日期：${booking.reserveDate}</p>
 
-<p>予約時間：${booking.reserveTime}</p>
+<p>预约时间：${booking.reserveTime}</p>
 
-<p>サービス：${booking.service}</p>
+<p>预约项目：${booking.service}</p>
 
 `;
 
