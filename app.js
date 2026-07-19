@@ -15,6 +15,12 @@ form.addEventListener("submit", (e) => {
 
         phone:
             document.getElementById("phone").value,
+// 手机号只能是数字
+    const phone = /^\d+$/;
+    if (!phone.test(phone)) {
+        msgBox.textContent = '電話番号は半角数字のみ入力可能です';
+        return;
+    }
 
         reserveDate:
             document.getElementById("date").value,
