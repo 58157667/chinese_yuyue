@@ -18,7 +18,7 @@ form.addEventListener("submit", (e) => {
 // 手机号只能是数字
     const phone = /^\d+$/;
     if (!phone.test(phone)) {
-        msgBox.textContent = '電話番号は半角数字のみ入力可能です';
+        msgBox.textContent = '电话号码必须是数字';
         return;
     }
 
